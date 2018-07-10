@@ -39,5 +39,35 @@ OpenX Rewarded Video Training
 
 
 ### Integrate Video Interstitial Ad
-
+* Import the OXMSDKCore to the ViewController
+```
+import OpenXSDKCore
+```
+* Add a member variable for the OpenX interstitial view controller
+```
+var interstitialController = OXMInterstitialController()
+```
+* Implement the OpenX Interstitial controller delegate
+    * Add to the default view controllers class definition
+```
+class ViewController: UIViewController, OXMInterstitialControllerDelegate {
+```
+    * Click on the red dot that appears on the right in the source code
+    * At the prompt “Do you want to add support to the protocol?” Select “Fix".
+    * Remove all the “code” stubs.
+    * For the function  viewControllerForModalPresentation()
+```
+return self
+```
+* Initialize the OXMInterstitialViewController
+    * Override the viewDidLoad() to add initialization code for Video Interstitials
+```
+self.interstitialController = OXMInterstitialController()
+self.interstitialController.delegate = self
+        
+self.interstitialController.adUnitIdentifierType = .vast
+self.interstitialController.vastURL = "http://oxv4support-d.openx.net/v/1.0/av?auid=537123792"
+self.interstitialController.userParameters.userGender = OXMGender.male
+self.interstitialController.userParameters.userAge = 21
+```
 ### Integrate Rewarded Video Ad
