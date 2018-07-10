@@ -43,15 +43,18 @@ OpenX Rewarded Video Training
 ```
 import OpenXSDKCore
 ```
+
 * Add a member variable for the OpenX interstitial view controller
 ```
 var interstitialController = OXMInterstitialController()
 ```
+
 * Implement the OpenX Interstitial controller delegate
     * Add to the default view controllers class definition
 ```
 class ViewController: UIViewController, OXMInterstitialControllerDelegate {
 ```
+
     * Click on the red dot that appears on the right in the source code
     * At the prompt “Do you want to add support to the protocol?” Select “Fix".
     * Remove all the “code” stubs.
