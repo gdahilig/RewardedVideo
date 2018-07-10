@@ -83,6 +83,7 @@ self.interstitialController.isRewarded = true
 ```
 self.interstitialController.vastURL = "http://mobile-d.openx.net/v/1.0/av?auid=539733507"
 ```
+    
     * With:
 ```
 self.interstitialController.vastURL = "http://mobile-d.openx.net/v/1.0/av?pgid=540069345"
