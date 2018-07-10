@@ -66,7 +66,6 @@ return self
 * Initialize the OXMInterstitialViewController
     * Override the viewDidLoad() to add initialization code for Video Interstitials
 ```
-self.interstitialController = OXMInterstitialController()
 self.interstitialController.delegate = self
         
 self.interstitialController.adUnitIdentifierType = .vast
