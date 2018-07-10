@@ -55,10 +55,10 @@ var interstitialController = OXMInterstitialController()
 class ViewController: UIViewController, OXMInterstitialControllerDelegate {
 ```
 
-    * Click on the red dot that appears on the right in the source code
-    * At the prompt “Do you want to add support to the protocol?” Select “Fix".
-    * Remove all the “code” stubs.
-    * For the function  viewControllerForModalPresentation()
+* Click on the red dot that appears on the right in the source code
+* At the prompt “Do you want to add support to the protocol?” Select “Fix".
+* Remove all the “code” stubs.
+* For the function  viewControllerForModalPresentation()
 ```
 return self
 ```
@@ -74,3 +74,16 @@ self.interstitialController.userParameters.userGender = OXMGender.male
 self.interstitialController.userParameters.userAge = 21
 ```
 ### Integrate Rewarded Video Ad
+* Change to Rewarded Video
+```
+self.interstitialController.isRewarded = true
+```
+* Display Rewarded Video with an End Card
+    * Replace the line:
+```
+self.interstitialController.vastURL = "http://mobile-d.openx.net/v/1.0/av?auid=539733507"
+```
+* With:
+```
+self.interstitialController.vastURL = "http://mobile-d.openx.net/v/1.0/av?pgid=540069345"
+```
