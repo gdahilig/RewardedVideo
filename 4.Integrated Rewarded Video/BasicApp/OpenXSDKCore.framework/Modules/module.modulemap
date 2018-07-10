@@ -1,0 +1,63 @@
+//
+//  OpenXSDKCore.modulemap
+//  OpenXSDKCore
+//
+//  Created by Yuriy Velichko on 1/25/18.
+//  Copyright © 2018 OpenX. All rights reserved.
+//
+
+framework module OpenXSDKCore {
+    header "OXMAbstractCreative.h"
+
+    header "OXMAbstractMediatedCreative.h"
+    header "OXMACJBasicTracking.h"
+    header "OXMAdCreativeProtocol.h"
+    header "OXMInterstitialController.h"
+    header "OXMInterstitialControllerDelegate.h"
+    header "OXMAdType.h"
+    header "OXMAdConfiguration.h"
+    header "OXMAdConfigurationConstants.h"
+    header "OXMAdDetails.h"
+    header "OXMAdInterface.h"
+    header "OXMAdLoadManager.h"
+    header "OXMAdLoadManagerDelegate.h"
+    header "OXMAdRequesterAbstract.h"
+    header "OXMAdRequestDelegate.h"
+    header "OXMAdRequestResponseAbstract.h"
+    header "OXMAdRequestResponseAcj.h"
+    header "OXMAdRequestResponseVast.h"
+    header "OXMAdViewManager.h"
+    header "OXMAdViewManagerDelegate.h"
+    header "OXMBannerView.h"
+    header "OXMBannerViewDelegate.h"
+    header "OXMChainInfo.h"
+    header "OXMClickthroughBrowserViewDelegate.h"
+    header "OXMConstants.h"
+    header "OXMCreativeViewDelegate.h"
+    header "OXMCreativeModel.h"
+    header "OXMCreativeModelCollectionMakerAbstract.h"
+    header "OXMCreativeModelCollectionMakerAcj.h"
+    header "OXMFunctions.h"
+    header "OXMModalManagerDelegate.h"
+    header "OXMMediatedAd.h"
+    header "OXMMediatedAdChain.h"
+    header "OXMMediatedAdResult.h"
+    header "OXMMRAIDConstants.h"
+    header "OXMORTBBidRequest.h"
+    header "OXMSDKConfiguration.h"
+    header "OXMServerConnection.h"
+    header "OXMServerResponse.h"
+    header "OXMTrackingEventDict.h"
+    header "OXMTransaction.h"
+    header "OXMTransactionDelegate.h"
+    header "OXMUserParameters.h"
+    header "OpenXSDKCore.h"
+    header "OXMWebViewDelegate.h"
+    header "OXMError.h"
+    header "OXMInterstitialDisplayProperties.h"
+    header "OXMLog.h"
+    header "OXMLogLevel.h"
+    header "OXMTrackingEvent.h"
+    header "OXMVastAbstractAd.h"
+
+}
