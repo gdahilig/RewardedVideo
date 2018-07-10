@@ -36,6 +36,7 @@ OpenX Rewarded Video Training
         * Select “Info.plist"
             * Add row: "App Transport Security Settings"
             * Add value: “Allow Arbitrary Loads"
+            * Set value to "YES"
 
 
 ### Integrate Video Interstitial Ad
