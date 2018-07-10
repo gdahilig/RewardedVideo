@@ -12,7 +12,7 @@ OpenX Rewarded Video Training
 ### Build the Basic App
 * Create a New Project
 * Prepare the App
-* Add App Title “Rewarded Video Training App"
+  * Add App Title “Rewarded Video Training App"
   * Add “Show” button, center it
   * Add an event handler “showButtonPressed” to handle button presses.
   * Make sure the status bar is hidden in the ViewController.swift
