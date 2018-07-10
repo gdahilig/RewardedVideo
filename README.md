@@ -99,3 +99,6 @@ self.interstitialController.vastURL = "http://mobile-d.openx.net/v/1.0/av?auid=5
 ```
 self.interstitialController.vastURL = "http://mobile-d.openx.net/v/1.0/av?pgid=540069345"
 ```
+
+## iOS SDK Documentation
+For more details SDK, see https://docs.openx.com/Content/developers/ios-sdk/ios-sdk.html
