@@ -69,10 +69,21 @@ return self
 self.interstitialController.delegate = self
         
 self.interstitialController.adUnitIdentifierType = .vast
-self.interstitialController.vastURL = "http://oxv4support-d.openx.net/v/1.0/av?auid=537123792"
+self.interstitialController.vastURL = "http://mobile-d.openx.net/v/1.0/av?auid=539733507"
 self.interstitialController.userParameters.userGender = OXMGender.male
 self.interstitialController.userParameters.userAge = 21
+
+self.interstitialController.load()
 ```
+
+* Show the Video Interstitial
+    * Show the video when the user presses the show button.  Add the following code to the pressShowButton() function:
+```
+    @IBAction func pressShowButton(_ sender: Any) {
+        self.interstitialController.show()
+    }
+```
+
 ### Integrate Rewarded Video Ad
 * Change to Rewarded Video
 ```
